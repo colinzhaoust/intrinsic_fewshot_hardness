@@ -10,7 +10,7 @@ This repo contains the code to reproduce the results in paper from our results o
 
 ## Data Format
 
-**heatmap_raw_data.json**: Bundled datasets of model performance and raw metric scores. The key: values are:
+**heatmap_raw_data.json**: Bundled datasets of model performance and raw metric scores. The key, values are:
 
 | Key | Value | 
 | :---: | :---: | 
