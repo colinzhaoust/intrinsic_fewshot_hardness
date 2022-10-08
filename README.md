@@ -10,9 +10,8 @@ This repo contains the code to reproduce the results in paper from our results o
 
 ## Data Format
 
-**heatmap_raw_data.json**: Bundled datasets of model performance and raw metric scores.
+**heatmap_raw_data.json**: Bundled datasets of model performance and raw metric scores. The key: values are:
 
-        The key: values are:
             output_collection: the output of each method on each task with roberta as the backbone;
             majority_collection: the majority baseline of each task;
             testsize_collection: the test data size of each task;
