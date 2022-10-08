@@ -11,12 +11,13 @@ This repo contains the code to reproduce the results in paper from our results o
 ## Data Format
 
 **heatmap_raw_data.json**: Bundled datasets of model performance and raw metric scores.
-    The key: values are:
-        output_collection: the output of each method on each task with roberta as the backbone;
-        majority_collection: the majority baseline of each task;
-        testsize_collection: the test data size of each task;
-        all_dist_collection: the distance collection between each test example to the support set of each task;
-        output_collection_electra: the output of each method and each task with electra as the backbone.
+
+        The key: values are:
+            output_collection: the output of each method on each task with roberta as the backbone;
+            majority_collection: the majority baseline of each task;
+            testsize_collection: the test data size of each task;
+            all_dist_collection: the distance collection between each test example to the support set of each task;
+            output_collection_electra: the output of each method and each task with electra as the backbone.
 
 ## Todo
 Link to the blog post.
