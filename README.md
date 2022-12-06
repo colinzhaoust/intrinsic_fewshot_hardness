@@ -5,7 +5,7 @@
 </p>
 
 This repository contains code, scripts, and data for running experiments in the following paper:
-> Xinran Zhao*, Shikhar Murty*, Christopher Manning
+> Xinran Zhao*, Shikhar Murty*, Christopher D. Manning
 >
 > [On Measuring the Intrinsic Few-Shot Hardness of Datasets]
 
