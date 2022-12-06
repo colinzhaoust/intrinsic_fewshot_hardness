@@ -1,7 +1,7 @@
 # On Measuring the Intrinsic Few-Shot Hardness of Datasets
 
 <p align="center">
-  <img src="assets/fewshot-hardness.pdf" width="550" title="Overview of the ExpBERT approach." alt="Overview of the ExpBERT approach.">
+  <img src="assets/fewshot-hardness.png" width="550" title="Motivation of studying fewshot hardness." alt="Motivation of studying fewshot hardness.">
 </p>
 
 This repository contains code, scripts, and data for running experiments in the following paper:
