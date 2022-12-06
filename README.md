@@ -1,11 +1,24 @@
 # On Measuring the Intrinsic Few-Shot Hardness of Datasets
-This is the github repo for EMNLP 2022 paper "On Measuring the Intrinsic Few-Shot Hardness of Datasets".
+
+<p align="center">
+  <img src="assets/fewshot-hardness.pdf" width="550" title="Overview of the ExpBERT approach." alt="Overview of the ExpBERT approach.">
+</p>
+
+This repository contains code, scripts, and data for running experiments in the following paper:
+> Xinran Zhao*, Shikhar Murty*, Christopher Manning
+>
+> [On Measuring the Intrinsic Few-Shot Hardness of Datasets]
+
+## Abstract
+
+While advances in pre-training have led to dramatic improvements in few-shot learning of NLP tasks, there is limited understanding of what drives successful few-shot adaptation in datasets. In particular, given a new dataset and a pre-trained model, what properties of the dataset make it few-shot learnable and are these properties independent of the specific adaptation techniques used? We consider an extensive set of recent few-shot learning methods, and show that their performance across a large number of datasets is highly correlated,  showing that few-shot hardness may be intrinsic to datasets, for a given pre-trained model. To estimate intrinsic few-shot hardness, we then propose a simple and lightweight metric called Spread that captures the intuition that few-shot learning is made possible by exploiting feature-space invariances between training and test samples. Our metric better accounts for few-shot hardness compared to existing notions of hardness, and is ~8--100x faster to compute.
 
 ## Dependency
 
 Python 3.7, pandas, sklearn, scipy, matplotlib, seaborn
 
 ## Introduction
+
 This repo contains the code to reproduce the results in paper from our results on various few-shot adaptation methods and hardness metrics.
 
 ## Data Format
