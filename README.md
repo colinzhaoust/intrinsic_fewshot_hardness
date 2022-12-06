@@ -24,7 +24,7 @@ Python 3.7, pandas, sklearn, scipy, matplotlib, seaborn
 
 ## Introduction
 
-This repo contains the code to reproduce the results in paper from our results on various few-shot adaptation methods and hardness metrics.
+This repository contains the code to reproduce the results in the paper from the performance of various few-shot adaptation methods and hardness metrics we collected. Detailed instructions can be found in **Heatmap_Generation.ipynb**.
 
 ## Data Format
 
@@ -42,7 +42,7 @@ This repo contains the code to reproduce the results in paper from our results o
 Link to the blog post.
 
 ## Citation
-to appear
+to appear (We will present our paper in EMNLP 2022. Welcome to come by!)
 
 ## Others
 If you have any other questions about this repo or any idea about few-shot learning to discuss, you are welcome to open an issue or send me an [email](mailto:xzhaoar@stanford.edu), I will respond to that as soon as possible.
