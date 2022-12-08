@@ -10,9 +10,9 @@ This repository contains code, scripts, and data for running experiments in the 
 > [On Measuring the Intrinsic Few-Shot Hardness of Datasets]
 
 The experiments use datasets that can be downloaded here:
-- GLUE ([Wang et al., 2018](https://arxiv.org/abs/1804.07461)): [download](https://gluebenchmark.com/)
-- SuperGLUE: ([Wang et al., 2019](https://arxiv.org/abs/1905.00537)): [download](https://super.gluebenchmark.com/)
+- FS-GLUE ([Wang et al., 2018](https://arxiv.org/abs/1804.07461),[Wang et al., 2019](https://arxiv.org/abs/1905.00537)): [download](https://drive.google.com/file/d/1XPnli6byv0aINWsvhyZOOC62RiKPj_6Y/view?usp=sharing)
 - FS-NLI: [download](https://drive.google.com/file/d/1jtjr17dfhWupabRslSa2nlShMRPi40aJ/view?usp=share_link)
+- Decomposed NER Dataset (for Table 3 in the original paper): [download](https://drive.google.com/file/d/1xnw54yJA3ov9dzLCIWwyw-wAX6HmqXqm/view?usp=sharing)
 
 ## Abstract
 

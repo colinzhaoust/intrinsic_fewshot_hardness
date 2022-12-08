@@ -1,0 +1,37 @@
+export task=ner_rand_0
+export task=ner_rand_1
+export task=ner_rand_2
+export task=ner_rand_3
+export task=ner_rand_4
+export task=ner_rand_5
+
+export task=ner_bert_0
+export task=ner_bert_1
+export task=ner_bert_2
+export task=ner_bert_3
+export task=ner_bert_4
+export task=ner_bert_5
+
+CUDA_VISIBLE_DEVICES=0 python run.py \
+    --task_name RTE \
+    --data_dir ./data/nli/$task/ \
+    --overwrite_output_dir \
+    --do_train \
+    --do_eval \
+    --do_predict \
+    --evaluate_during_training \
+    --model_name_or_path roberta-large \
+    --few_shot_type prompt-demo \
+    --num_k 16 \
+    --max_steps 1000 \
+    --eval_steps 100 \
+    --per_device_train_batch_size 1 \
+    --learning_rate 1e-5 \
+    --num_train_epochs 0 \
+    --output_dir ./nli_result/$task \
+    --seed 42 \
+    --template "*cls**sent-_0*.*mask*,_I_believe*+sentl_1**sep+*" \
+    --mapping "{'not_entailment':'Clearly','entailment':'Similarly'}" \
+    --num_sample 62 \
+    --max_seq_len 256 \
+    --first_sent_limit 120

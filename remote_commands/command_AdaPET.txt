@@ -1,0 +1,26 @@
+export task=ner_rand_0
+export task=ner_rand_1
+export task=ner_rand_2
+export task=ner_rand_3
+export task=ner_rand_4
+export task=ner_rand_5
+
+export task=ner_bert_0
+export task=ner_bert_1
+export task=ner_bert_2
+export task=ner_bert_3
+export task=ner_bert_4
+export task=ner_bert_5
+
+
+export TRANSFORMERS_CACHE=./local_model/
+export ADAPET_ROOT=./
+
+rm -rf /home/user/.cache/huggingface/transformers/transformers
+
+CUDA_VISIBLE_DEVICES=0 python cli.py --data_dir data/$task/ \
+              --pattern "[TEXT1] ? | [LBL], [TEXT2]" \
+              --dict_verbalizer '{"entailment": "yes","not_entailment": "no"}' \
+	      --pretrained_weight roberta-large \
+	      --num_batches 250 \
+	      --eval_every 50

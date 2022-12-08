@@ -1,0 +1,27 @@
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_0_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_1_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_2_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_3_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_4_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_5_bitfit.yaml
+
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_0_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_1_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_2_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_3_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_4_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_rand_5_null.yaml
+
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_0_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_1_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_2_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_3_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_4_bitfit.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_5_bitfit.yaml
+
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_0_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_1_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_2_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_3_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_4_null.yaml
+ python -m nullprompt.crossval -f ./jobs/nli_ner_bert_5_null.yaml
