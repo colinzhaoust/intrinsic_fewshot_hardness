@@ -42,7 +42,7 @@ This repository contains the code to reproduce the results in the paper from the
 Link to the blog post.
 
 ## Citation
-to appear (We will present our paper during EMNLP 2022. Welcome to come by!)
+to appear (We will present our paper during EMNLP 2022 (Poster Session 13). Welcome to come by!)
 
 ## Others
 If you have any other questions about this repo or any idea about few-shot learning to discuss, you are welcome to open an issue or send me an [email](mailto:xzhaoar@stanford.edu), I will respond to that as soon as possible.
