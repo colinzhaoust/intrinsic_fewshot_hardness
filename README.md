@@ -11,7 +11,7 @@ This repository contains code, scripts, and data for running experiments in the 
 
 The experiments use datasets that can be downloaded here:
 - FS-GLUE ([Wang et al., 2018](https://arxiv.org/abs/1804.07461),[Wang et al., 2019](https://arxiv.org/abs/1905.00537)): [download](https://drive.google.com/file/d/1XPnli6byv0aINWsvhyZOOC62RiKPj_6Y/view?usp=sharing)
-- FS-NLI: [download](https://drive.google.com/file/d/1jtjr17dfhWupabRslSa2nlShMRPi40aJ/view?usp=share_link)
+- FS-NLI ([White et al., 2017](https://aclanthology.org/I17-1100.pdf),[Poliak et al., 2018](https://aclanthology.org/D18-1007.pdf),[Richardson et al., 2019](https://arxiv.org/pdf/1909.07521.pdf)): [download](https://drive.google.com/file/d/1jtjr17dfhWupabRslSa2nlShMRPi40aJ/view?usp=share_link)
 - Decomposed NER Dataset (for Table 3 in the original paper): [download](https://drive.google.com/file/d/1xnw54yJA3ov9dzLCIWwyw-wAX6HmqXqm/view?usp=sharing)
 
 ## Abstract
@@ -42,7 +42,7 @@ This repository contains the code to reproduce the results in the paper from the
 Link to the blog post.
 
 ## Citation
-to appear (We will present our paper during EMNLP 2022 (Poster Session 13). Welcome to come by!)
+to appear 
 
 ## Others
 If you have any other questions about this repo or any idea about few-shot learning to discuss, you are welcome to open an issue or send me an [email](mailto:xzhaoar@stanford.edu), I will respond to that as soon as possible.
