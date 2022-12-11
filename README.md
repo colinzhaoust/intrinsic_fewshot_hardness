@@ -10,8 +10,8 @@ This repository contains code, scripts, and data for running experiments in the 
 > [On Measuring the Intrinsic Few-Shot Hardness of Datasets]
 
 The experiments use datasets that can be downloaded here:
-- FS-GLUE ([Wang et al., 2018](https://arxiv.org/abs/1804.07461),[Wang et al., 2019](https://arxiv.org/abs/1905.00537)): [download](https://drive.google.com/file/d/1XPnli6byv0aINWsvhyZOOC62RiKPj_6Y/view?usp=sharing)
-- FS-NLI ([White et al., 2017](https://aclanthology.org/I17-1100.pdf),[Poliak et al., 2018](https://aclanthology.org/D18-1007.pdf),[Richardson et al., 2019](https://arxiv.org/pdf/1909.07521.pdf)): [download](https://drive.google.com/file/d/1jtjr17dfhWupabRslSa2nlShMRPi40aJ/view?usp=share_link)
+- FS-GLUE ([Wang et al., 2018](https://arxiv.org/abs/1804.07461), [Wang et al., 2019](https://arxiv.org/abs/1905.00537)): [download](https://drive.google.com/file/d/1XPnli6byv0aINWsvhyZOOC62RiKPj_6Y/view?usp=sharing)
+- FS-NLI ([White et al., 2017](https://aclanthology.org/I17-1100.pdf), [Poliak et al., 2018](https://aclanthology.org/D18-1007.pdf), [Richardson et al., 2019](https://arxiv.org/pdf/1909.07521.pdf)): [download](https://drive.google.com/file/d/1jtjr17dfhWupabRslSa2nlShMRPi40aJ/view?usp=share_link)
 - Decomposed NER Dataset (for Table 3 in the original paper): [download](https://drive.google.com/file/d/1xnw54yJA3ov9dzLCIWwyw-wAX6HmqXqm/view?usp=sharing)
 
 ## Abstract
